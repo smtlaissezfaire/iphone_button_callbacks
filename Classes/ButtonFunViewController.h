@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ButtonFunViewController : UIViewController {
-
+  IBOutlet UILabel *statusText;
 }
+
+@property (retain, nonatomic) UILabel *statusText;
+
+-(IBAction)buttonPressed:(id)sender;
 
 @end
 
